@@ -1,0 +1,52 @@
+@{
+    ViewBag.Title = "РИВ ГОШ - Магазин парфюмерии и косметики";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://i.ibb.co/2WmyFK0/icon.png" type="image/png" />
+
+    <link rel="stylesheet" type="text/css" href="~/css/site.css">
+    <title>Гостевая страница</title>
+</head>
+<body>
+    <td class="main-text" style="text-align: center;">
+    <h1>Оставьте ваш отзыв</h1>
+    <form action="обработчик.php" method="POST">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Ваш Email:</label>
+        <input type="email" id="email" name="email" required>
+
+            <label>Выберите пол:</label>
+            <label><input type="radio" id="male" name="gender" value="male"> Мужской</label>
+            <label><input type="radio" id="female" name="gender" value="female"> Женский</label>
+
+            <label>Что вас интересует?</label>
+            <label><input type="checkbox" id="topic1" name="topics[]" value="topic1"> Качество товаров</label>
+            <label><input type="checkbox" id="topic2" name="topics[]" value="topic2"> Качество сайта</label>
+
+
+            <label for="message">Ваш отзыв:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <label for="country">Выберите страну:</label>
+        <select id="country" name="country">
+            <option value="russia">Россия</option>
+            <option value="usa">США</option>
+            <option value="germany">Германия</option>
+        </select>
+
+        <label for="rating">Оцените нас:</label>
+        <input type="range" id="rating" name="rating" min="1" max="5">
+
+        <label for="newsletter">Подписаться на рассылку:<input type="checkbox" id="newsletter" name="newsletter" value="yes"></label>
+        <input type="submit" value="Отправить отзыв">
+    </form>
+    </td>
+</body>
+</html>

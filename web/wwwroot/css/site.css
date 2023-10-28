@@ -1,0 +1,598 @@
+body {
+    background-color: #f8f8f8;
+    font: 1.2rem "Fira Sans", sans-serif;
+}
+
+.table1 {
+    width: 100%;
+    padding: 5px;
+    text-align: justify;
+}
+
+.table_1 {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+.table-divider {
+    border-bottom: 1px groove #000;
+}
+
+.footer {
+    text-align: justify;
+    border: 0px;
+    text-align: center;
+    background-color: #360250;
+    width: 100%;
+    padding: 10px;
+}
+
+    .footer td {
+        padding: 10px;
+        background-color: #0250;
+        color: white;
+        text-align: center;
+    }
+
+.header-table {
+    width: 100%;
+    padding: 0px;
+    text-align: justify;
+    background-color: #360250;
+    color: white;
+    border: 0px;
+    text-align: justify;
+}
+
+.submit-input {
+    margin: 0;
+    padding: 5px;
+}
+
+.header-table td.login {
+    width: 100%;
+    text-align: left;
+}
+
+.header-table_img {
+    width: 220px;
+    height: 60px;
+}
+
+.header-table H1 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.header-table A.regist {
+    color: white;
+    margin-left: 28px;
+    text-decoration: none;
+    font-size: 14.5px;
+}
+
+.links-list {
+    width: 100%;
+    padding: 5px 0px 0px 0px;
+    text-align: right;
+}
+
+    .links-list a {
+        display: inline;
+        margin-right: 155px;
+        color: #000;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+.search {
+    padding: 5px;
+    width: 100%;
+    text-align: right;
+}
+
+.main-table {
+    width: 100%;
+    padding: 2px;
+}
+
+.left-menu {
+    text-align: justify;
+    width: 150px;
+    padding: 5px;
+    vertical-align: top;
+    text-align: justify;
+    background-color: #360250;
+    margin-bottom: 10px;
+}
+
+    .left-menu a {
+        padding: 5px 5px 0px 5px;
+        color: #fff;
+        text-decoration: none;
+        display: block;
+    }
+
+    .left-menu:hover {
+        color: #000;
+    }
+
+.main-text {
+    vertical-align: top;
+}
+
+.catalog {
+    vertical-align: top;
+    text-align: center;
+}
+
+    .catalog a {
+        color: #450863;
+    }
+
+.main-text p,
+.main-text ol,
+.main-text ul {
+    text-align: justify;
+    padding: 0px 50px 0px 50px;
+}
+
+.main-text H1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.main-text a {
+    color: #450863;
+}
+
+.main-text h2 {
+    margin-left: 10px;
+}
+
+.table-table {
+    border: 3;
+    padding: 20px;
+    border-spacing: 10px;
+    border-color: purple;
+    text-align: justify;
+}
+
+.photo1 {
+    width: 1010px;
+    display: block;
+    height: 100%;
+}
+
+.form {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    font-size: 16px;
+    color: #333;
+    border-radius: 10px;
+    text-align: center;
+}
+
+    .form[type="text"],
+    .form[type="email"],
+    .form[type="tel"],
+    .form[type="password"],
+    .form[type="textarea"] {
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+        color: #360250;
+    }
+
+    .form textarea,
+    .form input {
+        width: 300px;
+        height: 40px;
+        margin-bottom: 10px;
+        color: #360250;
+    }
+
+    .form button {
+        background-color: #360250;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .form button:hover {
+            background-color: #4a0b69;
+        }
+
+.banners {
+    width: 190px;
+    padding: 10px;
+    vertical-align: top;
+    text-align: justify;
+    background-color: #E5CCFF;
+    color: #360250;
+}
+
+    .banners h2 {
+        text-align: center;
+    }
+
+    .banners img {
+        width: 190px;
+        height: 140px;
+    }
+
+    .banners a {
+        text-decoration: none;
+        color: #360250;
+    }
+
+.short-description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.full-description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.characteristics {
+    list-style-type: circle;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.photo2 {
+    width: 200px;
+    display: block;
+    height: 100%;
+}
+
+.cards {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 225px);
+    width: 100%;
+    column-gap: 30px;
+    row-gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.card {
+    width: 225px;
+    height: 500px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    transition: 0.2s;
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+    .card:hover {
+        box-shadow: 4px 8px 16px rgba(255, 102, 51, 0.2);
+    }
+
+.card__top {
+    flex: 0 0 220px;
+    position: relative;
+    overflow: hidden;
+    width: 225px;
+}
+
+.card__image {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+    .card__image > img {
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        transition: 0.2s;
+    }
+
+    .card__image:hover > img {
+        transform: scale(1.1);
+    }
+
+
+.card__label {
+    padding: 4px 8px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: #ff6633;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.card__bottom {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card__price::after {
+    margin-left: 4px;
+    position: relative;
+}
+
+.card__prices {
+    text-align: center;
+}
+
+.card__price--discount {
+    font-weight: 700;
+    font-size: 15px;
+    color: #414141;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__price--common {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+}
+
+
+.card__title {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #414141;
+    text-align: center;
+}
+
+    .card__title:hover {
+        color: #ff6633;
+    }
+
+.card__add {
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    font-size: 17px;
+    color: #271447;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #271447;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+    .card__add:hover {
+        border: 1px solid #8e6da8;
+        background-color: #8e6da8;
+        color: #fff;
+    }
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+/* Стили для контейнера модального окна */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+}
+
+/* Стили для кнопки закрытия модального окна */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #888;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Стили для названия товара */
+.modal-title {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+
+/* Стили для цен и описания */
+.modal-price,
+.modal-old-price,
+.modal-discount,
+.modal-description {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.validation-errors ul {
+    list-style-type: none;
+    padding-left: 0;
+    color: red;
+}
+
+.boxl {
+    vertical-align: top;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    border-color: #000;
+    color: #271447;
+}
+.boxr {
+    vertical-align: top;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    border-color: #000;
+    color: #271447;
+}
+    .boxl input[type = "text"], .boxl input[type = "password"] {
+        display: block;
+        margin: 30px auto;
+        text-align: center;
+        padding: 10px 5px;
+        width: 200px;
+        font-size: 19px;
+        border-radius: 10px;
+        color: #271447;
+        font-family: opensans;
+    }
+
+.boxr input[type = "text"], .boxr input[type = "password"] {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 10px 5px;
+    width: 200px;
+    font-size: 19px;
+    border-radius: 10px;
+    color: #271447;
+    font-family: opensans;
+}
+
+#login_button {
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 5px 10px;
+    font-family: opensans;
+    color: #000;
+    background-color: white;
+    font-size: 18px;
+}
+.login_icon {
+    position: absolute;
+    top: 35px; 
+    right: 40px; 
+    width: 40px;
+    height: 40px; 
+    cursor: pointer; 
+}
+
+.password {
+    margin-top: -8px;
+}
+
+.field-validation-error {
+    color: red;
+}
+
+.btn {
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #271447;
+    background-color: #fff;
+}
+
+.boxr p {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn:hover {
+    background-color: #E5CCFF;
+}
+.custom-style {
+    background-color: red;
+    border: 1px solid violet;
+    padding: 10px;
+    margin: 10px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="text"],
+textarea {
+    width: 250px;
+    height: 30px;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #8e6da8;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.input[type="submit"]:hover {
+    background-color: #450863;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+    label input[type="checkbox"],
+    label input[type="radio"] {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 5px;
+    }

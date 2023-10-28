@@ -1,0 +1,31 @@
+@{
+	ViewBag.Title = "РИВ ГОШ - Магазин парфюмерии и косметики";
+	Layout = "/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://i.ibb.co/2WmyFK0/icon.png" type="image/png" />
+
+    <link rel="stylesheet" type="text/css" href="~/css/site.css">
+    <title>Страница Контакты</title>
+</head>
+<body>
+    <td class="main-text">
+    <h1 style="text-align: center">Свяжитесь с нами</h1>
+        <form style ="text-align: center">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name" placeholder="Ваше имя" style="width: 250px; height: 30px; font-size: 16px; color: #333;" />
+            <br><label for="name">Email для обратной связи:</label>
+            <input type="text" id="name" name="name" placeholder="Email" style="width: 250px; height: 30px; font-size: 16px; color: #333;" />
+            <br>
+        <label for="message">Сообщение:</label>
+        <textarea id="message" name="message" placeholder="Ваше сообщение" style="width: 250px; height: 100px; font-size: 16px; color: #333;"></textarea>
+        <br>
+        <input type="submit" value="Отправить">
+    </form>
+    </td>
+</body>
+</html>
